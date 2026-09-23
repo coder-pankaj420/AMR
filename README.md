@@ -23,8 +23,6 @@ MoBot is a differential-drive mobile robot built from scratch in ROS 2, capable 
         ├── maps/               # Saved occupancy grid maps
         │   ├── my_map_save.pgm / .yaml      # map_saver_cli output
         │   └── my_map_serial.posegraph / .data  # SLAM Toolbox serialised map
-        ├── mobot/              # ROS 2 Python nodes
-        │   └── obstacle_avoid.py     # Reactive obstacle avoidance node
         ├── launch/             # Launch files
         │   ├── display.launch.py         # Visualise robot in RViz
         │   └── gazebo.launch.py          # Launch Gazebo simulation
