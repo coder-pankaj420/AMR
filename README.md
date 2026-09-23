@@ -1,5 +1,5 @@
-# MoBot 🤖
-### Autonomous Mobile Robot — ROS 2 | SLAM | Nav2 | Obstacle Avoidance
+
+### Autonomous Mobile Robot — ROS 2 | SLAM | Nav2 |
 
 MoBot is a differential-drive mobile robot built from scratch in ROS 2, capable of autonomous navigation using SLAM-generated maps and the Nav2 stack. This repository documents everything from robot modelling to full navigation pipeline deployment.
 
@@ -159,12 +159,6 @@ ros2 run tf2_tools view_frames
 ```
 This generates a `frames.pdf` in your current directory.
 ---
-
-## 🚧 Obstacle Avoidance Node
-
-MoBot includes a reactive obstacle avoidance node written in Python that runs independently of the Nav2 stack, using raw LiDAR scan data to stop or steer away from obstacles in real time.
-
-**File:** `mobot/obstacle_avoid.py`
 
 ### How it works
 - Subscribes to `/scan` (LaserScan)
